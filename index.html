@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="survey.css">
+    </head>
+    <body>
+        <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <h1 id="title">Impeachment Form</h1>
+        <p id="description">Thank you for taking the time to make our country better and safer</p>
+        <form id="survey-form">
+            <label id="name-label" for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            <label id="email-label" for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" required><br><br>
+            <label id="number-label" for="number">Age</label><br>
+            <input type="number" id="number" name="number" min="1" max="100" placeholder="Enter your age" required><br><br>
+            
+            <label for="dropdown">Which category describes you better?</label><br>
+            <select id="dropdown" name="dropdown">
+                <option value="student">Student</option>
+                <option value="job">Full-time Job</option>
+                <option value="learner">Full-time Learner</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label>What is your sex?</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+
+            <label>What is/are the reasons for petition?</label><br>
+            <input type="checkbox" id="Genocide" name="Genocide" value="Bike">
+            <label for="Genocide"> Peopla are dying</label><br>
+            <input type="checkbox" id="Natural disaster" name="Natural disaster" value="Car">
+            <label for="Natural disaster"> No government aid for affected</label><br>
+            <input type="checkbox" id="Economic stagnation" name="Economic stagnation" value="Boat">
+            <label for="Economic stagnation"> No future with this government</label><br><br>
+            
+            <textarea placeholder="Additional comments.."></textarea>
+            <br><br>
+            <br>
+            <input type="submit" id="submit">
+</form>
+        
+        </form>
+        
+    </body>
+</html>
